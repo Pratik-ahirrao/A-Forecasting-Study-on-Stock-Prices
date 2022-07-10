@@ -25,3 +25,5 @@ We have also used five deep learning models:<br/>
 * NBeats Estimator (NBE)
 * WaveNet Estimator (WNE)
 * Transformer Estimator (TE)
+
+The five traditional univariate forecasting models and one global forecasting model are also applied to M3 Forecasting Dataset. Dataset can be obtained fron this [link](https://forecasters.org/resources/time-series-data/m3-competition/). 
