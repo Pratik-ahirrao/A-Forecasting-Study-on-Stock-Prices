@@ -29,3 +29,14 @@ We have also used five deep learning models:<br/>
 * Transformer Estimator (TE)
 
 The five traditional univariate forecasting models and one global forecasting model are also applied to M3 Forecasting Dataset. Dataset can be obtained fron this [link](https://forecasters.org/resources/time-series-data/m3-competition/). 
+
+## Parameters used in Models common to all datasets:
+1. For SES, we have used auto-optimization (alpha value is not passed).
+2. ETS model is applied with the seasonal_periods parameter as 7.
+3. For Arima order chosen is (10,1,1) for (p,d,q). Here p is the number of lagged terms, d is the differencing factor, and q is
+the no. of differentials of the lagged terms.
+4. For Pooled Regression model, we used simple linear formula with lag terms to be considered as 3.
+5. For Theta Model, we considered the period of 7.
+6. For TBATS, Default parameters were considered
+7. Cross-validation is done on the test set using rolling windows. We have used sklearn TimeSeriesSplit() function with
+the number of splits as 10.
