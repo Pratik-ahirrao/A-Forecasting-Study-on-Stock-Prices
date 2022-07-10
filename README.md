@@ -9,3 +9,19 @@ forecasting model and five deep learning models. We used five error metrics for 
 Cross-Validation is done for all forecasting models on the test set using rolling windows. We have also ensembled some
 models by taking simple averages. This helps to check whether the ensembled model performed better than individuals for
 these stock price datasets or not.
+
+# Models Used:
+We have used five traditional univariate forecasting models and one global forecasting model:<br/>
+* Exponential Smoothing (ETS)
+* Auto-Regressive Integrated Moving Average (ARIMA)
+* Simple Exponential Smoothing (SES)
+* Theta
+* Trignometric Box-Cox ARMA Trend Seasonal (TBATS)
+* Pooled Regression (PR)
+
+We have also used five deep learning models:<br/>
+* Simple Feed Forward Estimator (SFFE)
+* DeepAR Estimator (DE)
+* NBeats Estimator (NBE)
+* WaveNet Estimator (WNE)
+* Transformer Estimator (TE)
