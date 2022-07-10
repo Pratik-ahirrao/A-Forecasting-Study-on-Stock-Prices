@@ -40,3 +40,9 @@ the no. of differentials of the lagged terms.
 6. For TBATS, Default parameters were considered.
 7. Cross-validation is done on the test set using rolling windows. We have used sklearn TimeSeriesSplit() function with
 the number of splits as 10.
+
+## TEAM MEMBERS:
+Pratik Ratnadeep Ahirrao (IMT2019064)
+Pratyush Upadhyay (IMT2019066)
+Rohan Thakkar (IMT2019071)
+Fahed Shaikh (IMT2019079
