@@ -37,6 +37,6 @@ The five traditional univariate forecasting models and one global forecasting mo
 the no. of differentials of the lagged terms.
 4. For Pooled Regression model, we used simple linear formula with lag terms to be considered as 3.
 5. For Theta Model, we considered the period of 7.
-6. For TBATS, Default parameters were considered
+6. For TBATS, Default parameters were considered.
 7. Cross-validation is done on the test set using rolling windows. We have used sklearn TimeSeriesSplit() function with
 the number of splits as 10.
