@@ -42,7 +42,7 @@ the no. of differentials of the lagged terms.
 the number of splits as 10.
 
 ## TEAM MEMBERS:
-Pratik Ratnadeep Ahirrao (IMT2019064)
-Pratyush Upadhyay (IMT2019066)
-Rohan Thakkar (IMT2019071)
-Fahed Shaikh (IMT2019079
+Pratik Ratnadeep Ahirrao (IMT2019064)<br/>
+Pratyush Upadhyay (IMT2019066)<br/>
+Rohan Thakkar (IMT2019071)<br/>
+Fahed Shaikh (IMT2019079)<br/>
